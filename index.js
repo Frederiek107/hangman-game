@@ -21,7 +21,11 @@ function game(word, guesses) {
 
   // volgende ronde! we roepen game nog een keer aan
   if (isGameLost(word,guesses)) {
-    console.log("Helaas!! Je hebt verloren.")
+    console.log("Helaas!! Je hebt verloren.");
+    return;
+  }
+  else if (isGameWon(word,guesses)) {
+    console.log("Yes! Je hebt gewonnen!");
     return;
   }
   game(word, guesses);
