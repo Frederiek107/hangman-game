@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c20e785-4248-4dfb-9ef0-af38077280c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gamelogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/gamelogic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamelogic.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/gamelogic.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
       <updated>1611845184835</updated>
       <workItem from="1611845192526" duration="7619000" />
       <workItem from="1611853752863" duration="122000" />
+      <workItem from="1611854273836" duration="6846000" />
     </task>
     <servers />
   </component>
