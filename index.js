@@ -2,15 +2,15 @@ const { question } = require("readline-sync");
 const { displayWordSoFar, isGameWon, isGameLost, wrongLetters, draw } = require("./gamelogic");
 
 function game(word, guesses) {
-  console.log("Dit heb je tot nu toe geraden: ", guesses);
-  console.log("Je hebt " + wrongLetters(word,guesses) + " foute letters ingevoerd")
-  console.log("Resultaat: ", displayWordSoFar(word,guesses));
+  console.log("Guessed so far: ", guesses);
+  console.log("You entered " + wrongLetters(word,guesses) + " wrong letters")
+  console.log("Result: ", displayWordSoFar(word,guesses));
 
-  const letter = question("Raad een letter: ").toLowerCase();
+  const letter = question("Guess a letter: ").toLowerCase();
 
   // voeg de geraden letter toe aan de array met guesses
   if (letter.length >1) {
-    console.log ("Graag 1 letter tegelijk invoeren");
+    console.log ("Please insert 1 letter at a time");
   }
   else {
     guesses.push(letter);
@@ -21,11 +21,11 @@ function game(word, guesses) {
 
   // volgende ronde! we roepen game nog een keer aan
   if (isGameLost(word,guesses)) {
-    console.log("Helaas!! Je hebt verloren.");
+    console.log("Sorry! You lost.");
     return;
   }
   else if (isGameWon(word,guesses)) {
-    console.log("Yes! Je hebt gewonnen!");
+    console.log("Yes! You won!");
     return;
   }
   game(word, guesses);

@@ -1,30 +1,30 @@
 function displayWordSoFar(word, guesses) {
 
-  let resultaat= "";
+  let result= "";
   for (i=0; i<word.length; i++) {
     let element = word[i];
-    const geraden = guesses.includes(element)
-        if (geraden) {
-          resultaat = resultaat + element + " ";
+    const guessed = guesses.includes(element)
+        if (guessed) {
+          result = result + element + " ";
         }
         else {
-          resultaat = resultaat + "_ ";
+          result = result + "_ ";
         }
     }
-  return resultaat;
+  return result;
 }
 
 function isGameWon(word, guesses) {
-  let resultaat=true;
+  let result=true;
   for (i=0; i<word.length; i++) {
     let element = word[i];
-    const geraden = guesses.includes(element);
-    if (!geraden) {
-      resultaat = false;
-      return resultaat;
+    const guessed = guesses.includes(element);
+    if (!guessed) {
+      result = false;
+      return result;
     }
   }
-  return resultaat;
+  return result;
     }
 
 function isGameLost(word, guesses) {
@@ -37,19 +37,19 @@ function isGameLost(word, guesses) {
 }
 
 function wrongLetters(word,guesses) {
-    let resultaat=0;
+    let result=0;
     for (i=0; i<guesses.length; i++) {
         let element = guesses[i];
         if (!word.includes(element)) {
-            resultaat++;
+            result++;
         }
     }
-    return resultaat;
+    return result;
 }
 
 function draw (word,guesses) {
-    let resultaat = wrongLetters(word, guesses);
-    if (resultaat === 1) {
+    let result = wrongLetters(word, guesses);
+    if (result === 1) {
         console.log(`  
 |      
 |     
@@ -59,7 +59,7 @@ function draw (word,guesses) {
 =========== 
 `);
     }
-    if (resultaat === 2) {
+    if (result === 2) {
         console.log(`  
 __________
 |      
@@ -70,7 +70,7 @@ __________
 ===========
 `);
     }
-    if (resultaat === 3) {
+    if (result === 3) {
         console.log(`  
 __________
 | /     
@@ -81,7 +81,7 @@ __________
 =========== 
 `);
     }
-    if (resultaat === 4) {
+    if (result === 4) {
         console.log(`  
 __________
 | /     |
@@ -92,7 +92,7 @@ __________
 =========== 
 `);
     }
-    if (resultaat === 5) {
+    if (result === 5) {
         console.log(`  
 __________
 | /     |
@@ -103,7 +103,7 @@ __________
 ===========
 `);
     }
-    if (resultaat === 6) {
+    if (result === 6) {
         console.log(`  
 __________
 | /     |
@@ -114,7 +114,7 @@ __________
 =========== 
 `);
     }
-    if (resultaat === 7) {
+    if (result === 7) {
         console.log(`
 __________
 | /     |
