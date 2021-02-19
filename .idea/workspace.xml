@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="4c20e785-4248-4dfb-9ef0-af38077280c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
+
+    <list default="true" id="1403fa32-69cf-4c7f-9b7c-eac1a6fef3a1" name="Default Changelist" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +17,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1nhbHMAH6Ap6GJcAYN5zdKaSM8F" />
+
+  <component name="ProjectId" id="1nkJhS1IqlM83ZhjiKyISSt71tL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,13 +35,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
+
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
       <changelist id="4c20e785-4248-4dfb-9ef0-af38077280c9" name="Default Changelist" comment="" />
       <created>1611845184835</created>
       <option name="number" value="Default" />
@@ -41,12 +54,21 @@
       <workItem from="1611845192526" duration="7619000" />
       <workItem from="1611853752863" duration="122000" />
       <workItem from="1611854273836" duration="8952000" />
+
+      <changelist id="1403fa32-69cf-4c7f-9b7c-eac1a6fef3a1" name="Default Changelist" comment="" />
+      <created>1611928280738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611928280738</updated>
+      <workItem from="1611928284727" duration="1120000" />
+
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -59,4 +81,5 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
 </project>

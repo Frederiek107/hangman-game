@@ -1,4 +1,5 @@
 function displayWordSoFar(word, guesses) {
+
   let resultaat= "";
   for (i=0; i<word.length; i++) {
     let element = word[i];
