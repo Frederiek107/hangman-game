@@ -3,7 +3,7 @@
 ## In deze repo vind je
 
 - Een starterkit om een galgje spel te maken (index.js)
-- Test die je helpen de rest van de logica te schrijven (gamelogic.test.js)
+- Tests die je helpen de rest van de logica te schrijven (gamelogic.test.js)
 - Een bestandje waar je je gamelogica kan schrijven (gamelogic.js)
 
 ## Installatie
@@ -38,7 +38,7 @@ Je kan het programma stoppen door:
 - [ ] Implementeer de game logica (laat de tests je helpen: `npm run test:watch`)
 - [ ] Is de game logica geimplementeerd? Gebruik de functies dan in index.js
   - [ ] Zorg dat mensen letters kunnen raden
-  - [ ] Hou bij in de guesses array welke letters mensen geraden hebben
+  - [ ] Houd bij in de guesses array welke letters mensen geraden hebben
   - [ ] Laat zien welke letters al geraden zijn met (displayWordSoFar)
   - [ ] Heeft iemand alle letters geraden? log dan dat ze gewonnen hebben
   - [ ] Heeft iemand meer 6 letters fout geraden? log dan hebben ze verloren
